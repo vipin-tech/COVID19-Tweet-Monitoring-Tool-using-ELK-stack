@@ -4,4 +4,4 @@
 
 * Sentiment of each tweet is calculated using NLTK package and the data is ingested into Elastic Cluster using the Logstash.  
 
-* Designed and developed the python scheduler for tweets due to the restrictions imposed on the REST calls by twitter. 
+* Designed and developed the python scheduler for collecting tweets due to the rate limits imposed on the twitter REST API calls by twitter. 
